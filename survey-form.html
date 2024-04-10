@@ -3,6 +3,7 @@
     <head>
         <title>Survey Form</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1 id="title">bataclan Survey Form</h1>
@@ -35,43 +36,49 @@
                 </label>
             </div>
 
+            <hr>
+
             <div class="form-group">
                 <legend>Would you recommend bataclan to a friend?</legend>
                 <label for="yes">
-                    <input id="yes" name="recommend-friend" type="radio" value="Yes" checked> Yes
+                    <input id="yes" name="recommend-friend" type="radio" value="Yes" class="inline" checked> Yes
                 </label>
                 <label for="maybe">
-                    <input id="maybe" name="recommend-friend" type="radio" value="Maybe"> Maybe
+                    <input id="maybe" name="recommend-friend" type="radio" class="inline" value="Maybe"> Maybe
                 </label>
                 <label for="no">
-                    <input id="no" name="recommend-friend" type="radio" value="No"> No
+                    <input id="no" name="recommend-friend" type="radio" class="inline" value="No"> No
                 </label>
             </div>
+
+            <hr>
 
             <div class="form-group">
                 <legend>What skills you have to help us improve?</legend>
                 <label for="developer"> Developer
-                    <input id="developer" name="developer" type="checkbox" value="Developer">
+                    <input id="developer" name="developer" type="checkbox" value="Developer" class="inline">
                 </label>
                 <label for="game-developer"> Game Developer
-                    <input id="game-developer" name="game-developer" type="checkbox" value="Game Developer">
+                    <input id="game-developer" name="game-developer" type="checkbox" value="Game Developer" class="inline">
                 </label>
                 <label for="video-editor"> Video Editor
-                    <input id="video-editor" name="video-editor" type="checkbox" value="Video Editor">
+                    <input id="video-editor" name="video-editor" type="checkbox" value="Video Editor" class="inline">
                 </label>
                 <label for="content-creator"> Content Creator
-                    <input id="content-creator" name="content-creator" type="checkbox" value="Content Creator">
+                    <input id="content-creator" name="content-creator" type="checkbox" value="Content Creator" class="inline">
                 </label>
                 <label for="musical-producer"> Musical Producer
-                    <input id="musical-producer" name="musical-producer" type="checkbox" value="Musical Producer">
+                    <input id="musical-producer" name="musical-producer" type="checkbox" value="Musical Producer" class="inline">
                 </label>
                 <label for="pro-player"> Pro-player
-                    <input id="pro-player" name="pro-player" type="checkbox" value="Pro-player">
+                    <input id="pro-player" name="pro-player" type="checkbox" value="Pro-player" class="inline">
                 </label>
                 <label for="designer"> Designer
-                    <input id="designer" name="designer" type="checkbox" value="Designer">
+                    <input id="designer" name="designer" type="checkbox" value="Designer" class="inline">
                 </label>
             </div>
+
+            <hr>
 
             <div class="form-group">
                 <label for="suggestions"> Any comments or suggestions? Let us know.
