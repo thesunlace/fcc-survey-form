@@ -77,11 +77,19 @@ label[for="dropdown"] {
 }
 
 label[for="suggestions"] {
+    text-align: center;
     margin-top: 25px;
 }
 
 hr {
     background-color: #3b3b4f;
+}
+
+textarea {
+    width:100%;
+    max-width:100%;
+    max-height:30%;
+    resize: vertical;
 }
 
 .inline{
